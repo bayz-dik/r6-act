@@ -3,5 +3,5 @@ description: 'Canary composite action for lockfile tests'
 runs:
   using: 'composite'
   steps:
-    - run: echo "CANARY-MARKER-C2"
+    - run: echo "CANARY-MARKER-C3"
       shell: bash
