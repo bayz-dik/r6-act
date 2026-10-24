@@ -1,0 +1,10 @@
+name: reuse
+on:
+  workflow_call:
+jobs:
+  reuse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.4.0
+      - run: echo "REUSE-CALLEE-DONE"
+        shell: bash
